@@ -1,4 +1,4 @@
-# 3-Tier App with Docker Compose 🐳
+# 3-Tier App with Docker Compose 
 
 A simple web app split into 3 parts — Frontend, Backend, and Database — all running together with Docker.
 
@@ -86,4 +86,3 @@ DB_ROOT_PASSWORD=rootsecret
 |-------|-----|
 | `address already in use: 5000` | change the port in `docker-compose.yml` ports: "5001:5000" |
 | `Table 'myapp.users' doesn't exist` | Run `docker compose down -v` then `docker compose up --build` |
-| `TLS handshake timeout` | Turn off VPN and try again |
