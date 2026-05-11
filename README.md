@@ -2,6 +2,8 @@
 
 A simple web app split into 3 parts — Frontend, Backend, and Database — all running together with Docker.
 
+![App Preview](screenshots/app.png)
+
 ---
 
 ## What Does It Do?
