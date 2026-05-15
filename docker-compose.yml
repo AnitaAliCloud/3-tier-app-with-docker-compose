@@ -5,7 +5,7 @@ networks:
 services:
 
   frontend:
-    build: ./frontend
+    image: anitaalicloud/3-tier-app-with-docker-compose-frontend:latest
     ports:
       - "3000:3000"
     environment:
@@ -16,7 +16,7 @@ services:
       - backend
 
   backend:
-    build: ./backend
+    image: anitaalicloud/3-tier-app-with-docker-compose-backend:latest
     ports:
       - "5001:5000"
     environment:
